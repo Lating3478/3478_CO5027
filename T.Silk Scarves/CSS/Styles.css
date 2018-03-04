@@ -1,0 +1,78 @@
+﻿*{border:0;
+padding:0; margin:0;}
+
+body {
+	background-color:#CCCCFF;
+    margin: 0;
+	padding: 0;
+}
+#page{
+	width:800px;
+	margin:auto;
+	background-color:#DDD;
+	min-height:500px;
+}
+
+header {
+    margin-left: 155px;
+    width: 1200px;
+}
+header h1 {
+    font-family:Jokerman;
+}
+header li {
+	display: inline;
+}
+header nav a {
+    color: #000000;
+    font-family:Trebuchet MS;
+    font-style:italic;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top:4%;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+}
+section {
+    margin-left: 155px;
+    width: 1200px;
+}
+section h2 {
+    text-align:center;
+    font-family:Trebuchet MS;
+}
+section td {
+    width: 300x;
+    padding: 50px;
+}
+section img {
+    height: 200px;
+    width: 200px;
+}
+.contactform {
+    margin-left: 250px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.contactname,
+.contactemail {
+    width: 700px;
+}
+.contactmessage {
+    font-family:'Times New Roman';
+    height: 100px;
+    width: 700px;
+}
+.loginform {
+    margin-left: 470px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    width:100%;
+}
+.loginusername,
+.loginpassword {
+    width: 250px;
+}
+
+  

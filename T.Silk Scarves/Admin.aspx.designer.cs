@@ -11,7 +11,7 @@ namespace T.Silk_Scarves
 {
 
 
-    public partial class Default
+    public partial class Admin
     {
     }
 }

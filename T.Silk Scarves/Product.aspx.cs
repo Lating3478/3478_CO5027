@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace T.Silk_Scarves
 {
-    public partial class Contact : System.Web.UI.Page
+    public partial class Product : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
