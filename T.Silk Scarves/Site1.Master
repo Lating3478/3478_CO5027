@@ -5,46 +5,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>
-        <asp:ContentPlaceHolder ID="title" runat="server">
-        </asp:ContentPlaceHolder>
+           <asp:ContentPlaceHolder ID="title" runat="server">
+           </asp:ContentPlaceHolder>
     </title>
     <link href="CSS/Styles.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
-        .auto-style1 {
-            font-weight: normal;
-            font-size: xx-large;
-            text-align: center;
-            color: #000000;
+        .auto-style1{
+            font-weight:normal;
+            font-size:xx-large;
+            text-align:center;
+            color:#000000;
             background-color: #CC99FF;
         }
         .auto-style2 {
             background-color: #FF99CC;
         }
         .auto-style3 {
-            font-size: larger;
+            font-size:larger;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 class="auto-style1"> &nbsp;</h1>
-        <h1 class="auto-style1"> <strong><em><span class="auto-style2">Welcome to T-Silk Scarves and Shawls Shopping.com </span></em></strong> </h1>
-        <p class="auto-style1"> &nbsp;</p>
+        <h1 class="auto-style1"></h1>
+        <h1 class="auto-style1"><strong><em><span class="auto-style2">Welcome to T-Silk Scarves and Shawls Shopping.com</span></em></strong></h1>
+    <p class="auto-style1"></p>
         <nav>
             <ul>
-                <li class="auto-style3"><a href="Login.aspx"><strong>Login</strong></a>|&nbsp;&nbsp;&nbsp;&nbsp; </li>
-                <li><a href="Register.aspx"><strong><span class="auto-style3">Register NOW</span></strong></a><strong><span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></li>
-                <li><strong><span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong><a href="Default.aspx"><strong><span class="auto-style3">Home</span></strong></a>&nbsp; <strong><span class="auto-style3">|&nbsp;&nbsp;&nbsp;&nbsp; </span></strong><a href="About.aspx"><strong><span class="auto-style3">AboutUS</span></strong></a>&nbsp;&nbsp; </li>
-                <li><strong><span class="auto-style3">|&nbsp;&nbsp;&nbsp;&nbsp; </span></strong><a href="Product.aspx"><strong><span class="auto-style3">T.Silk Product</span></strong></a><strong><span class="auto-style3">&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; </span></strong><a href="Contact.aspx"><strong><span class="auto-style3">ContactUS</span></strong></a><strong><span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;&gt; </span></strong></li>
-                <li class="auto-style3">&nbsp; <a href="Admin.aspx"><strong>T.Silk Admin</a>&lt;&lt;</li>       
+                <li class="auto-style3"><a href="Login.aspx"><strong>Login</strong></a></li>
+                <li><a href="Register.aspx"><strong><span class="auto-style3">Register NOW</span></strong></a><strong><span class="auto-style3"></span></strong></li>
+                <li><strong><span class="auto-style3"></span></strong><a href="Default.aspx"><strong><span class="auto-style3">Home</span></strong></a><strong><span class="auto-style3"></span></strong></li>
+                <li><a href="About.aspx"><strong><span class="auto-style3">AboutUS</span></strong></a></li>
+                <li><strong><span class="auto-style3"></span></strong><a href="Product.aspx"><strong><span class="auto-style3">T.Silk Product</span></strong></a><strong><span class="auto-style3"></span></strong><a href="Contact.aspx"><strong><span class="auto-style3">ContactUS</span></strong></a><strong><span class="auto-style3"></span></strong></li>      
+                
             </ul>
         </nav>
     </header>
-
     <section>
+    <div>
         <asp:ContentPlaceHolder ID="content" runat="server">
+        
         </asp:ContentPlaceHolder>
-    </section>
+    </div>
+     </section>
     
 </body>
 </html>

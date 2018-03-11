@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace T.Silk_Scarves
+namespace T.Silk_Scarves.admin
 {
 
 
-    public partial class Admin
+    public partial class index
     {
     }
 }

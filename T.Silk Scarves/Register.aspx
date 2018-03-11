@@ -5,14 +5,21 @@
         .auto-style1 {
             width: 227px;
         }
+        .auto-style2 {
+        width: 227px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <h2 style="text-align: center; font-size: xx-large; background-color: #FFCCFF;">Register NOW!</h2>
     <form class="registerform" style="background-color: #FFCCFF">
-     &nbsp;<a><strong>Email: </strong> </a><p><input class="auto-style1" id="Email" type="text" style="margin-left: 60" /><p>&nbsp;<p>
-     <a><strong>Password: </strong> </a><p><input class="auto-style1" id="Password" type="text" /><p>&nbsp;<p>
-     <a><strong>Retype Password: </strong> </a><p><input class="auto-style1" id="Retype Password" type="text" /><p>&nbsp;<p>&nbsp;<p>
+     &nbsp;<br />
+        <br />
+        <br />
+        <br />
+        <strong><a>Email: </a> </strong> <p><input class="registeremail" id="email" style="margin-left: 60; width: 281px; height: 25px; background-color: #CC99FF;" /><p>&nbsp;<p>
+     <a><strong>Password: </strong> </a><p><input class="registerpassword" id="password" style="width: 281px; height: 25px; background-color: #CC99FF" /><p>&nbsp;<p>
+     <a><strong>Retype Password: </strong> </a><p><input class="registerretypepassword" id="retype password" style="width: 280px; height: 25px; background-color: #CC99FF" /><p>&nbsp;<p>&nbsp;<p>
      <input type="submit" name="signupbtn" value="sign up" style="width: 88px; height: 32px; font-weight: bold; font-size: medium; color: #FFFFFF; background-color: #660066;" />
         <label>
             &nbsp;</label><p>
@@ -23,4 +30,3 @@
         <p>
             &nbsp;</form>
 </asp:Content>
-
