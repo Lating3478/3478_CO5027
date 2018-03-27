@@ -20,7 +20,7 @@ namespace T.Silk_Scarves
             //sends email using a mail server that requires login credentials and a secure connection, e.g.gmail
             //create mail client and message with to and from address,and set message subject and body
             SmtpClient smtpClient = new SmtpClient();
-            MailMessage msg = new MailMessage("mardhiyahs72@gmail.com", "mardhiyahs72@gmail.com");
+            MailMessage msg = new MailMessage("lating3478@gmail.com", "lating3478@gmail.com");
             msg.Subject = txtSubject.Text;
             msg.Body = txtbody.Text;
 
@@ -30,9 +30,9 @@ namespace T.Silk_Scarves
             smtpClient.EnableSsl = true;
 
             //create credentials - e.g username and password for the account
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("mardhiyahs72@gmail.com", "mardhiyahsufriyan402");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("lating3478@gmail.com", "latingreeyan3478");
             smtpClient.Credentials = credentials;
-            msg = new MailMessage("mardhiyahs72@gmail.com", "mardhiyahs72@gmail.com");
+           
 
             try
             {

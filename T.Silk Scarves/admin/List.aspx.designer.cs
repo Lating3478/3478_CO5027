@@ -7,36 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace T.Silk_Scarves {
+namespace T.Silk_Scarves.admin {
     
     
-    public partial class Site1 {
+    public partial class List {
         
         /// <summary>
-        /// title control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder title;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// content control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder content;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// GoogleMap control.
+        /// SqlDataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder GoogleMap;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource;
     }
 }
