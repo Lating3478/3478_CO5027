@@ -35,7 +35,7 @@ namespace T.Silk_Scarves
             IdentityResult result = manager.Create(user, txtRegPassword.Text);
             if (result.Succeeded)
             {
-                manager.AddToRole(user.Id, "Admin");
+                manager.AddToRole(user.Id, "admin");
                 manager.Update(user);
                 LitRegisterError.Text = "Registration successfully"; //todo:Log in Then
             }

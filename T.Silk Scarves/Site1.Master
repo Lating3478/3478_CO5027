@@ -16,6 +16,9 @@
         margin: 0;
         padding: 0;
       }
+      body {
+          background-image:url(T.Silk/Background.jpg);
+      }
     </style>
     <title>
            <asp:ContentPlaceHolder ID="title" runat="server">
@@ -32,6 +35,7 @@
         }
         .auto-style2 {
             background-color: #FF99CC;
+            
         }
         .auto-style3 {
             font-size:larger;
@@ -57,6 +61,10 @@
     <section>
     <div>
         <asp:ContentPlaceHolder ID="content" runat="server">
+        
+            <p>
+                <br />
+            </p>
         
         </asp:ContentPlaceHolder>
     </div>

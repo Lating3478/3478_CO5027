@@ -13,19 +13,22 @@ Register | Welcome to T-Silk Scarves and Shawls Shopping.com
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <h2 style="text-align: center; font-size: xx-large; background-color: #FFCCFF;">Register NOW!</h2>
     <form id="form1" runat="server">
-     &nbsp;<br />
-        <strong><a>Email: </a> </strong> <p>
-            <asp:TextBox ID="txtRegEmail" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
-        <p>&nbsp;<p>
-     <a><strong>Password: </strong> </a><p>
-            <asp:TextBox ID="txtRegPassword" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
-        <p>&nbsp;<p>
-     <a><strong>Retype Password: </strong> </a><p>
-            <asp:TextBox ID="txtRegRePassword" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
-        <p>&nbsp;<p>
+     &nbsp;<p></p>
+        <strong>
+        <asp:Label ID="Label1" runat="server" Text="Email"></asp:Label>
+            </strong>&nbsp;<asp:TextBox ID="txtRegEmail" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
+        <p>&nbsp;</p>
+        <strong>
+        <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
+            </strong>&nbsp;<asp:TextBox ID="txtRegPassword" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
+        <p>&nbsp;</p>
+        <strong>
+        <asp:Label ID="Label3" runat="server" Text="Retype Password"></asp:Label>
+            </strong>&nbsp;<asp:TextBox ID="txtRegRePassword" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
+        <p>&nbsp;</p>
         <asp:Button ID="Btnsignup" runat="server" Text="Signup" style="height: 21px" OnClick="Btnsignup_Click" />
         <p>
-            &nbsp;<p>
+            &nbsp;</p>
      
        
         <asp:Literal ID="LitRegisterError" runat="server"></asp:Literal>
