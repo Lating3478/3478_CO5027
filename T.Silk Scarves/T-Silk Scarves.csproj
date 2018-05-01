@@ -227,6 +227,38 @@
     <Content Include="JS\Map.js" />
     <Content Include="Login.aspx" />
     <Content Include="Product.aspx" />
+    <Content Include="ProductImages\1000.jpg" />
+    <Content Include="ProductImages\1001.jpg" />
+    <Content Include="ProductImages\1002.jpg" />
+    <Content Include="ProductImages\1003.jpg" />
+    <Content Include="ProductImages\1004.jpg" />
+    <Content Include="ProductImages\1005.jpg" />
+    <Content Include="ProductImages\1006.jpg" />
+    <Content Include="ProductImages\1007.jpg" />
+    <Content Include="ProductImages\1008.jpg" />
+    <Content Include="ProductImages\1009.jpg" />
+    <Content Include="ProductImages\2000.jpg" />
+    <Content Include="ProductImages\2001.jpg" />
+    <Content Include="ProductImages\2002.jpg" />
+    <Content Include="ProductImages\2003.jpg" />
+    <Content Include="ProductImages\2004.jpg" />
+    <Content Include="ProductImages\2005.jpg" />
+    <Content Include="ProductImages\2006.jpg" />
+    <Content Include="ProductImages\2007.jpg" />
+    <Content Include="ProductImages\2008.jpg" />
+    <Content Include="ProductImages\2009.jpg" />
+    <Content Include="ProductImages\3000.jpg" />
+    <Content Include="ProductImages\3001.jpg" />
+    <Content Include="ProductImages\3002.jpg" />
+    <Content Include="ProductImages\3003.jpg" />
+    <Content Include="ProductImages\3004.jpg" />
+    <Content Include="ProductImages\3005.jpg" />
+    <Content Include="ProductImages\3006.jpg" />
+    <Content Include="ProductImages\3007.jpg" />
+    <Content Include="ProductImages\3008.jpg" />
+    <Content Include="ProductImages\3009.jpg" />
+    <Content Include="ProductImages\4000.jpg" />
+    <Content Include="ProductImages\4001.jpg" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -528,7 +560,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ProductImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

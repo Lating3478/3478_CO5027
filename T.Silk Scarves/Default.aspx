@@ -50,11 +50,11 @@
 
 <ul class="repeater">
     <li>
-                &nbsp;<img src="/ProductImages/<%#Eval("ProductId") %>.jpg" alt="<%#Eval("ProductType") %>" title="<%#Eval("ProductType") %>" width="300" height="300" /><br />
-                <p style="font-size: larger"><strong>Available size:</strong></p>
+        <asp:Image ID="Img" runat="server" width="300" height="300" ImageUrl='<%#"~/ProductImages/" + Eval("ProductId")+ ".jpg"%>' AlternateText='<%#Eval("ProductType") %>' ToolTip='<%#Eval("ProductType") %>'/>
+        
+        <p style="font-size: larger"><strong>Available size:</strong></p>
                 <p>&nbsp;</p>
-                <p>  
-                <a href="<%#Eval("ProductId","Product.aspx?Id={0}") %>"><%#Eval("ProductType") %></a></p>
+                <p><a href="<%#Eval("ProductId","Product.aspx?Id={0}") %>"><%#Eval("ProductType") %></a></p>
                 <p><h3>Quantity:</h3><%#Eval("Quantity") %></p>
                 <p><h3>Price:</h3><%#Eval("Price") %></p>
   
