@@ -262,7 +262,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="T.Silk\Background.jpg" />
-    <Content Include="T.Silk\Home.jpg" />
     <Content Include="T.Silk\Scarf1.jpg" />
     <Content Include="T.Silk\Scarf10.jpg" />
     <Content Include="T.Silk\Scarf11.jpg" />
@@ -293,6 +292,8 @@
     <Content Include="T.Silk\Shawl7.jpg" />
     <Content Include="T.Silk\Shawl8.jpg" />
     <Content Include="T.Silk\Shawl9.jpg" />
+    <Content Include="T.Silk\Special1.jpg" />
+    <Content Include="T.Silk\Special2.jpg" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

@@ -35,6 +35,8 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
+            <asp:Image ID="Img" runat="server"  height="300" width="300" ImageUrl='<%#"~/ProductImages/" + Eval("ProductId")+ ".jpg"%>'/>
+            <br />
             ProductId:
             <asp:Label ID="ProductIdLabel" runat="server" Text='<%# Eval("ProductId") %>' />
             <br />
