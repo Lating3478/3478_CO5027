@@ -62,6 +62,8 @@
 <asp:Content ID="Content3" runat="server" contentplaceholderid="GoogleMap"> <div id="map"></div>
     <h1>&nbsp;</h1>
     <br />
+    <asp:Image ID="Img" runat="server" height="507px" Width="924px" ImageUrl="~/T.Silk/Static Map.PNG"/>
+    <br />
     <div id="map1"></div>
     <script src="../JS/Map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy1r8m5bTcXnNezQ6iDRz7-Do54FMlXmc

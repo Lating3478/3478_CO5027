@@ -65,15 +65,27 @@
         </asp:DropDownList></p>
         <p>&nbsp;</p>
         <p>
-            <asp:Button ID="BtnPurchase" runat="server" Text="BUY NOW!" OnClick="BtnPurchase_Click1" />
+            <asp:Button ID="BtnPurchase" runat="server" Text="BUY NOW!" OnClick="BtnPurchase_Click1" Height="36px" Width="118px" />
         </p>
-        <br />
+        <p>
+            &nbsp;</p>
+        <p>
+            <strong><em>
+            <asp:Button ID="BtnAdd" runat="server" Text="Add to Cart" Height="24px" style="font-weight: bold; font-style: italic" Width="184px" />
+            </em></strong>
+        </p>
+        <p>
+            &nbsp;</p>
     
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" SelectCommand="SELECT [ProductId], [ProductType], [Price] FROM [tblProduct] WHERE ([ProductId] = @ProductId)">
         <SelectParameters>
             <asp:QueryStringParameter Name="ProductId" QueryStringField="Id" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
+        <br />
+        <strong>
+        <asp:Hyperlink ID="Hyperlink1" runat="server" NavigateUrl="~/Default.aspx" style="font-size: large">Return to Default Page</asp:Hyperlink>
+        </strong>
         </form>
 </asp:Content>
 

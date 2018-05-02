@@ -38,7 +38,7 @@
             background-color: #99CC00;
         }
 
-    </style>
+        </style>
     <form id="form1" runat="server">
         <h2 class="auto-style4">
             PRODUCT LIST:</h2>
@@ -63,7 +63,7 @@
                     </ItemTemplate>
                 <FooterTemplate></ul></FooterTemplate>
             </asp:Repeater>
-        </p>
-    </form>
+        
+            </form>
 </asp:Content>
 

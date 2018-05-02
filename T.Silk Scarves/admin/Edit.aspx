@@ -6,7 +6,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="GoogleMap" runat="server">
     <form id="form1" runat="server">
         <br />
-        <asp:FormView ID="FormView1" runat="server" DataKeyNames="ProductId" DataSourceID="SqlDataSource1"  AllowPaging="True">
+        <asp:FormView ID="FormView1" runat="server" DataKeyNames="ProductId" DataSourceID="SqlDataSource1"  AllowPaging="True" Height="202px" Width="249px">
             <EditItemTemplate>
                 ProductId:
                 <asp:Label ID="ProductIdLabel1" runat="server" Text='<%# Eval("ProductId") %>' />

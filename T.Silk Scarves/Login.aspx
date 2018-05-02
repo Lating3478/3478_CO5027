@@ -22,7 +22,7 @@
             <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
             <asp:TextBox ID="txtLoginPassword" runat="server" Height="25px" style="background-color: #CC99FF" Width="245px"></asp:TextBox>
         <p>&nbsp;<p>&nbsp;<p>
-        &nbsp;<asp:Button ID="Btnlogin" runat="server" Text="Login" OnClick="Btnlogin_Click" />
+        &nbsp;<asp:Button ID="Btnlogin" runat="server" Text="Login" OnClick="Btnlogin_Click" Height="27px" Width="81px" />
         <p>
             <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
     </form>

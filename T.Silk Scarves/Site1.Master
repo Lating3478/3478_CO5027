@@ -53,8 +53,9 @@
                 <li><a href="Register.aspx"><strong><span class="auto-style3">Register NOW</span></strong></a><strong><span class="auto-style3"></span></strong></li>
                 <li><strong><span class="auto-style3"></span></strong><a href="Default.aspx"><strong><span class="auto-style3">Home</span></strong></a><strong><span class="auto-style3"></span></strong></li>
                 <li><a href="About.aspx"><strong><span class="auto-style3">AboutUS</span></strong></a></li>
-                <li><strong><span class="auto-style3"></span></strong><a href="Product.aspx"><strong><span class="auto-style3">T.Silk Product</span></strong></a><strong><span class="auto-style3"></span></strong><a href="Contact.aspx"><strong><span class="auto-style3">ContactUS</span></strong></a><strong><span class="auto-style3"></span></strong></li>      
-                
+                <li><strong><span class="auto-style3"></span></strong><a href="Product.aspx"><strong><span class="auto-style3">T.Silk Product</span></strong></a></li>
+                <li><strong><span class="auto-style3"></span></strong><a href="Contact.aspx"><strong><span class="auto-style3">ContactUS</span></strong></a><strong><span class="auto-style3"></span></strong></li>      
+                <li><strong><span class="auto-style3"></span></strong><a href="ShippingInfo.aspx"><strong><span class="auto-style3">ShippingInfo</span></strong></a></li>
             </ul>
         </nav>
     </header>

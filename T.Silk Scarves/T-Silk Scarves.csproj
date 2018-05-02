@@ -293,6 +293,7 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="ShippingInfo.aspx" />
     <Content Include="T.Silk\Background.jpg" />
     <Content Include="T.Silk\Scarf1.jpg" />
     <Content Include="T.Silk\Scarf10.jpg" />
@@ -326,6 +327,7 @@
     <Content Include="T.Silk\Shawl9.jpg" />
     <Content Include="T.Silk\Special1.jpg" />
     <Content Include="T.Silk\Special2.jpg" />
+    <Content Include="T.Silk\Static Map.PNG" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -534,6 +536,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingInfo.aspx.cs">
+      <DependentUpon>ShippingInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShippingInfo.aspx.designer.cs">
+      <DependentUpon>ShippingInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>

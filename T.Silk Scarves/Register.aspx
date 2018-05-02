@@ -26,7 +26,7 @@ Register | Welcome to T-Silk Scarves and Shawls Shopping.com
         <asp:Label ID="Label3" runat="server" Text="Retype Password"></asp:Label>
             </strong>&nbsp;<asp:TextBox ID="txtRegRePassword" runat="server" Height="25px" Width="245px" style="background-color: #CC99FF" Text=""></asp:TextBox>
         <p>&nbsp;</p>
-        <asp:Button ID="Btnsignup" runat="server" Text="Signup" style="height: 21px" OnClick="Btnsignup_Click" />
+        <asp:Button ID="Btnsignup" runat="server" Text="Signup" OnClick="Btnsignup_Click" Height="32px" Width="100px" />
         <p>
             &nbsp;</p>
      
