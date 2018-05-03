@@ -40,6 +40,24 @@
         .auto-style3 {
             font-size:larger;
         }
+
+        * {
+            box-sizing:border-box;
+
+        }
+        .column {
+            float:left;
+            width:30%;
+            padding:10px;
+            height:150px;
+            text-align:center;
+            
+        }
+        .row:after {
+            content:"";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
 <body>
@@ -73,5 +91,34 @@
             <asp:ContentPlaceHolder ID="GoogleMap" runat="server">
         
         </asp:ContentPlaceHolder>
+    <p></p>
+    <p></p>
+     <div class="row">
+        <div class="column" style="background-color:cadetblue;">
+            <h2>SHOP T.SILK</h2>
+            <p>&nbsp;</p>
+            <p>&gt;&gt;Shop T.Silk Standard Scarves</p>
+            <p>&gt;&gt;Shop T.Silk Big Scarves</p>
+            <p>&gt;&gt;Shop T.Silk Shawl</p>
+            <p>&gt;&gt;Shop T.Silk Special Scarves</p>
+            <p><asp:Hyperlink ID="Hyperlink1" runat="server" NavigateUrl="~/Default.aspx" style="font-size: large">>>Shop T.Silk</asp:Hyperlink></p>
+        </div>
+        <div class="column" style="background-color:cadetblue;">
+            <h2>CUSTOMER SERVICE</h2>
+            <p>&nbsp;</p>
+            <p><asp:Hyperlink ID="Hyperlink2" runat="server" NavigateUrl="~/About.aspx" style="font-size: large">>>About</asp:Hyperlink></p>
+            <p>&gt;&gt;ContactNo:+6738402101</p>
+            <p>&gt;&gt;Email: Lating3478@gmail.com</p>
+        </div>
+        <div class="column" style="background-color:cadetblue;">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;&nbsp;(c) Copyright 2018. All Rights Reserved.</p>
+            <p>Site by QueenLady Team.</p>
+        </div>
+         </div>
 </body>
 </html>
