@@ -42,7 +42,7 @@
     <form id="form1" runat="server">
         <h2 class="auto-style4">
             PRODUCT LIST:</h2>
-        <p>
+        <p></p>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" SelectCommand="SELECT ProductId, ProductType, Quantity, Price FROM tblProduct WHERE (Quantity &gt; 0)"></asp:SqlDataSource>
             <asp:Repeater ID="ProductList" runat="server" DataSourceID="SqlDataSource1">
                 <HeaderTemplate><ul></HeaderTemplate>

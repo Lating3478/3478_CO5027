@@ -12,18 +12,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <h2 style="font-size: xx-large; text-align: center; background-color: #FF6666;"><span style="font-weight: normal"><strong><span style="background-color: #FF6666">Login</span></strong></span></h2>
-    <strong>
     <form id="form1" runat="server">
-        
             <asp:Label ID="Label1" runat="server" Text="Email"></asp:Label>
             <asp:TextBox ID="txtLoginEmail" runat="server" Height="25px" style="background-color: #CC99FF" Width="245px"></asp:TextBox>
-        <p>&nbsp;<p>
+        <p>&nbsp;</p>
         
             <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
             <asp:TextBox ID="txtLoginPassword" runat="server" Height="25px" style="background-color: #CC99FF" Width="245px"></asp:TextBox>
-        <p>&nbsp;<p>&nbsp;<p>
+        <p>&nbsp;</p>&nbsp;<p>
         &nbsp;<asp:Button ID="Btnlogin" runat="server" Text="Login" OnClick="Btnlogin_Click" Height="27px" Width="81px" />
-        <p>
+        </p>
             <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
     </form>
 
